@@ -1,0 +1,19 @@
+{
+  "errors": [],
+  "overflow": [],
+  "checks": [
+    "login error",
+    "login success",
+    "all protected routes",
+    "manual QR success",
+    "duplicate prevention",
+    "CSV download",
+    "profile edit",
+    "logout/protection",
+    "registration",
+    "session persistence",
+    "theme",
+    "menu"
+  ],
+  "result": "PASS"
+}

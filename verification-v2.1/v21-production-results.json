@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "checks": [
+    "Built production welcome renders",
+    "Explicit setup-required notice",
+    "No unconfigured fake authentication",
+    "Protected route redirects to login"
+  ],
+  "errors": [],
+  "liveAuthConfigured": false
+}

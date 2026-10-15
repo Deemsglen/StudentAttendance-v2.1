@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "name": "student-attendance-backend",
+  "dependencies": {
+    "firebase-admin": {
+      "version": "14.5.0",
+      "resolved": "https://registry.npmjs.org/firebase-admin/-/firebase-admin-14.5.0.tgz",
+      "overridden": false
+    },
+    "firebase-functions": {
+      "version": "7.4.0",
+      "resolved": "https://registry.npmjs.org/firebase-functions/-/firebase-functions-7.4.0.tgz",
+      "overridden": false
+    }
+  }
+}

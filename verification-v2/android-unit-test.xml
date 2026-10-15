@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.deemsglen.absensiswa.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-14T16:44:18.346Z" hostname="e798d139-6d1" time="0.005">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.deemsglen.absensiswa.ExampleUnitTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

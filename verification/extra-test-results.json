@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "checks": [
+    "password change",
+    "notification read persistence",
+    "schedule empty state",
+    "actual CSV download contents",
+    "320px overflow: all protected routes"
+  ]
+}

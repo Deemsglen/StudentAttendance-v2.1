@@ -1,0 +1,28 @@
+
+> absensiswa@2.0.0 prebuild
+> node scripts/copy-ocr.mjs
+
+Packaged local OCR worker, WASM cores and English language data.
+
+> absensiswa@2.0.0 build
+> vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1715 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.53 kB │ gzip:   0.33 kB
+dist/assets/index-DtblBP7I.css   25.97 kB │ gzip:   6.37 kB
+dist/assets/web-47IlftnD.js       0.36 kB │ gzip:   0.25 kB
+dist/assets/web-Cd9zxhbT.js       0.84 kB │ gzip:   0.40 kB
+dist/assets/web-BorJ_4Xx.js       8.68 kB │ gzip:   2.96 kB
+dist/assets/web-BUfH6P3V.js      12.27 kB │ gzip:   2.83 kB
+dist/assets/index-B3dzPU9l.js   375.14 kB │ gzip: 110.56 kB
+dist/assets/index-DwN9y8Zd.js   922.46 kB │ gzip: 283.85 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 7.89s

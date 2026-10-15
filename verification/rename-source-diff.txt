@@ -1,0 +1,77 @@
+--- src/components/AppHeader.jsx (before)
++++ src/components/AppHeader.jsx (after)
+@@ -11,7 +11,7 @@
+       </button>
+       <Link to="/dashboard" className="brand">
+         <img src="/logo.svg" alt="" />
+-        AbsenSiswa
++        Student Attendance
+       </Link>
+       <Link
+         to="/notifications"
+--- src/components/Sidebar.jsx (before)
++++ src/components/Sidebar.jsx (after)
+@@ -41,7 +41,7 @@
+           </Link>
+         ))}
+       </nav>
+-      <p className="muted">AbsenSiswa 1.0 · Local demo</p>
++      <p className="muted">Student Attendance 1.0 · Local demo</p>
+     </dialog>
+   );
+ }
+--- src/pages/Welcome.jsx (before)
++++ src/pages/Welcome.jsx (after)
+@@ -5,7 +5,7 @@
+     <div className="welcome">
+       <div className="brand">
+         <img src="/logo.svg" alt="" />
+-        AbsenSiswa
++        Student Attendance
+       </div>
+       <span className="eyebrow">YOUR CAMPUS COMPANION</span>
+       <img
+--- src/pages/Login.jsx (before)
++++ src/pages/Login.jsx (after)
+@@ -25,7 +25,7 @@
+       <Link to="/welcome" className="text-link">
+         <ArrowLeft size={18} /> Back
+       </Link>
+-      <img className="auth-logo" src="/logo.svg" alt="AbsenSiswa" />
++      <img className="auth-logo" src="/logo.svg" alt="Student Attendance" />
+       <span className="eyebrow">WELCOME BACK</span>
+       <h1>
+         A fresh day.
+--- src/pages/AttendanceHistory.jsx (before)
++++ src/pages/AttendanceHistory.jsx (after)
+@@ -24,7 +24,7 @@
+     setBusy(true);
+     try {
+       const csv = toCSV(filtered),
+-        filename = `AbsenSiswa-${Date.now()}.csv`;
++        filename = `StudentAttendance-${Date.now()}.csv`;
+       if (Capacitor.isNativePlatform()) {
+         const file = await Filesystem.writeFile({
+           path: filename,
+--- src/pages/Settings.jsx (before)
++++ src/pages/Settings.jsx (after)
+@@ -111,7 +111,7 @@
+       </section>
+       <section className="panel">
+         <img src="/logo.svg" width="48" height="48" alt="" />
+-        <h2>AbsenSiswa</h2>
++        <h2>Student Attendance</h2>
+         <p>Version 1.0.0 · Student Attendance App</p>
+         <p className="muted">
+           An offline college-project demo built with React and Capacitor. Your
+--- src/utils/attendance.js (before)
++++ src/utils/attendance.js (after)
+@@ -4,7 +4,7 @@
+   try {
+     data = JSON.parse(raw);
+   } catch {
+-    throw new Error("Invalid QR. Use an AbsenSiswa demo attendance code.");
++    throw new Error("Invalid QR. Use a Student Attendance demo attendance code.");
+   }
+   if (
+     !data ||

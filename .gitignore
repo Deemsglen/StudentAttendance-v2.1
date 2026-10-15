@@ -1,0 +1,15 @@
+node_modules/
+dist/
+android/.gradle/
+android/local.properties
+android/**/build/
+*.jks
+*.keystore
+.env*
+
+android/app/google-services.json
+functions/node_modules/
+.firebaserc
+*-debug.log
+
+!.env.example

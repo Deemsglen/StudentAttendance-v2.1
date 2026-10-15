@@ -1,0 +1,29 @@
+{
+  "version": "2.1.0",
+  "appId": "com.deemsglen.absensiswa",
+  "nativeVersionCode": 3,
+  "reactBuild": "PASS",
+  "cleanNpmInstall": "PASS",
+  "jsTests": {
+    "total": 30,
+    "frontend": 15,
+    "backend": 15,
+    "passed": 30,
+    "failed": 0
+  },
+  "androidBuild": "PASS: assembleDebug",
+  "nativeUnitTest": {
+    "passed": 1
+  },
+  "uiChecks": 14,
+  "managementBackendImplemented": true,
+  "serverSideRevocationVerified": true,
+  "liveClassMembershipVerification": true,
+  "adminRoleCliImplemented": true,
+  "liveFirebaseConfigured": false,
+  "cloudDeploymentPerformed": false,
+  "physicalAndroidCameraTestedThisRelease": false,
+  "liveGoogleOAuthTested": false,
+  "apkBytes": 16926956,
+  "apkLocation": "android/app/build/outputs/apk/debug/app-debug.apk"
+}

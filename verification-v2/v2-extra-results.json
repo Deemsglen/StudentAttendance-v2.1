@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "environment": "LOCAL emulators only",
+  "checks": [
+    "Password-reset request accepted by Auth emulator (not real email delivery)",
+    "Edit existing personal subject",
+    "Overlapping class times blocked before commit",
+    "OCR cancellation does not save a schedule",
+    "Authenticated password change with reauthentication",
+    "Cloud theme preference persists after reload",
+    "Percentage animation observed: intermediate 28%, final 67%",
+    "No 320px overflow across protected screens"
+  ],
+  "errors": []
+}

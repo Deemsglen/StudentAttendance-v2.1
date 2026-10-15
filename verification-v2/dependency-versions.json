@@ -1,0 +1,121 @@
+{
+  "version": "2.0.0",
+  "name": "absensiswa",
+  "dependencies": {
+    "@capacitor-firebase/authentication": {
+      "version": "8.5.2",
+      "resolved": "https://registry.npmjs.org/@capacitor-firebase/authentication/-/authentication-8.5.2.tgz",
+      "overridden": false
+    },
+    "@capacitor/android": {
+      "version": "8.5.3",
+      "resolved": "https://registry.npmjs.org/@capacitor/android/-/android-8.5.3.tgz",
+      "overridden": false
+    },
+    "@capacitor/app": {
+      "version": "8.1.2",
+      "resolved": "https://registry.npmjs.org/@capacitor/app/-/app-8.1.2.tgz",
+      "overridden": false
+    },
+    "@capacitor/cli": {
+      "version": "8.5.3",
+      "resolved": "https://registry.npmjs.org/@capacitor/cli/-/cli-8.5.3.tgz",
+      "overridden": false
+    },
+    "@capacitor/core": {
+      "version": "8.5.3",
+      "resolved": "https://registry.npmjs.org/@capacitor/core/-/core-8.5.3.tgz",
+      "overridden": false
+    },
+    "@capacitor/filesystem": {
+      "version": "8.1.4",
+      "resolved": "https://registry.npmjs.org/@capacitor/filesystem/-/filesystem-8.1.4.tgz",
+      "overridden": false
+    },
+    "@capacitor/share": {
+      "version": "8.0.3",
+      "resolved": "https://registry.npmjs.org/@capacitor/share/-/share-8.0.3.tgz",
+      "overridden": false
+    },
+    "@capacitor/status-bar": {
+      "version": "8.0.4",
+      "resolved": "https://registry.npmjs.org/@capacitor/status-bar/-/status-bar-8.0.4.tgz",
+      "overridden": false
+    },
+    "@tailwindcss/vite": {
+      "version": "4.3.3",
+      "resolved": "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz",
+      "overridden": false
+    },
+    "@tesseract.js-data/eng": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/@tesseract.js-data/eng/-/eng-1.0.0.tgz",
+      "overridden": false
+    },
+    "@vitejs/plugin-react": {
+      "version": "5.2.0",
+      "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.2.0.tgz",
+      "overridden": false
+    },
+    "firebase": {
+      "version": "12.19.0",
+      "resolved": "https://registry.npmjs.org/firebase/-/firebase-12.19.0.tgz",
+      "overridden": false
+    },
+    "html5-qrcode": {
+      "version": "2.3.8",
+      "resolved": "https://registry.npmjs.org/html5-qrcode/-/html5-qrcode-2.3.8.tgz",
+      "overridden": false
+    },
+    "lucide-react": {
+      "version": "0.468.0",
+      "resolved": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz",
+      "overridden": false
+    },
+    "prettier": {
+      "version": "3.9.10",
+      "resolved": "https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz",
+      "overridden": false
+    },
+    "qrcode": {
+      "version": "1.5.4",
+      "resolved": "https://registry.npmjs.org/qrcode/-/qrcode-1.5.4.tgz",
+      "overridden": false
+    },
+    "react-dom": {
+      "version": "19.3.0",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+      "overridden": false
+    },
+    "react-router-dom": {
+      "version": "7.18.4",
+      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.4.tgz",
+      "overridden": false
+    },
+    "react": {
+      "version": "19.3.0",
+      "resolved": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+      "overridden": false
+    },
+    "tailwindcss": {
+      "version": "4.3.3",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",
+      "overridden": false
+    },
+    "tesseract.js": {
+      "version": "7.0.0",
+      "resolved": "https://registry.npmjs.org/tesseract.js/-/tesseract.js-7.0.0.tgz",
+      "overridden": false
+    },
+    "typescript": {
+      "version": "5.9.3",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "overridden": false
+    },
+    "vite": {
+      "version": "7.3.7",
+      "resolved": "https://registry.npmjs.org/vite/-/vite-7.3.7.tgz",
+      "overridden": false
+    }
+  }
+}

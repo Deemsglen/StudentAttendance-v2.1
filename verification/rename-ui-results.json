@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "errors": [],
+  "overflow": [],
+  "checks": [
+    "New welcome and header name",
+    "Original demo login unchanged",
+    "390px and 320px layout",
+    "Manual QR works with original QR protocol",
+    "Duplicate prevention retained"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "environment": "Headless Chromium with synthetic QR video; NOT a physical Android camera",
+  "scan": "PASS",
+  "tracksAfterScan": [
+    "ended"
+  ],
+  "tracksAfterLeaving": [
+    "ended",
+    "ended"
+  ],
+  "permissionDeniedSimulation": "PASS",
+  "errors": [
+    "The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22"
+  ]
+}

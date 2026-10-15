@@ -1,0 +1,8 @@
+package: name='com.deemsglen.absensiswa' versionCode='2' versionName='2.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+sdkVersion:'24'
+targetSdkVersion:'36'
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='com.deemsglen.absensiswa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'Student Attendance'
+application-label-af:'Student Attendance'

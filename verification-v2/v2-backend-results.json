@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "environment": "LOCAL emulators only; no live deployment",
+  "checks": [
+    "Verified enrolled user creates server attendance",
+    "Transactional duplicate prevention",
+    "Incorrect token rejected",
+    "Unenrolled account rejected",
+    "Unverified email rejected",
+    "Anonymous request rejected",
+    "Closed/expired session rejected",
+    "Owner reads allowed, cross-account reads denied",
+    "Client attendance writes denied",
+    "Password fields rejected by profile rules",
+    "Session token hashes hidden from clients"
+  ]
+}

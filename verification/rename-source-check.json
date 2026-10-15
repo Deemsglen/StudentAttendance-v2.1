@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "originalSourceFilesRetained": 26,
+  "changedSourceFiles": [
+    "src/components/AppHeader.jsx",
+    "src/components/Sidebar.jsx",
+    "src/pages/Welcome.jsx",
+    "src/pages/Login.jsx",
+    "src/pages/AttendanceHistory.jsx",
+    "src/pages/Settings.jsx",
+    "src/utils/attendance.js"
+  ],
+  "changes": "Brand/display text only; executable logic untouched",
+  "unchanged": [
+    "app ID",
+    "QR protocol marker",
+    "storage keys",
+    "demo credentials",
+    "all functions"
+  ]
+}

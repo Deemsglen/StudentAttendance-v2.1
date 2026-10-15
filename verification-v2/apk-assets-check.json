@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "verifiedAssets": 21,
+  "languageModel": "assets/public/ocr/eng.traineddata",
+  "sampleCredentialsInRuntime": false,
+  "emulatorProjectInRuntime": false,
+  "liveBackendConfigured": false
+}

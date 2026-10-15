@@ -1,0 +1,1 @@
+a81c813d961669ef79356b3ebeb9b7f5569d67c9c8fd300f1997fbd252fec2e4  artifacts/StudentAttendance-debug.apk

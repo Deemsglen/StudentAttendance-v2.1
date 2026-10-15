@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "environment": "Local Firebase Auth/Firestore/Functions emulators, NOT live Google or real school accounts",
+  "checks": [
+    "Email registration/sign-in",
+    "Password show/hide + strength",
+    "Verified-email refresh",
+    "Manual personal schedule + confirmation + persistence",
+    "Actual photo OCR: 2 day/time/subject suggestions",
+    "OCR loading/success/review",
+    "3 confirmed subjects stored under UID",
+    "Profile photo resized + cloud save",
+    "No password stored in profile",
+    "Logout modal cancel + confirm",
+    "All protected screens no 390px overflow",
+    "Sign in again after logout"
+  ],
+  "errors": []
+}

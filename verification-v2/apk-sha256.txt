@@ -1,0 +1,1 @@
+1442fa1f2de2d3ec9447b663c50eb98f38dd09eeb3caaec8bdb392201e7eb500  artifacts/StudentAttendance-v2-setup.apk

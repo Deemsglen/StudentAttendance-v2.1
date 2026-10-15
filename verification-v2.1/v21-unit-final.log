@@ -1,0 +1,27 @@
+
+> absensiswa@2.1.0 test
+> node --test tests/*.test.js
+
+✔ current QR format parses without manufacturing attendance (2.775582ms)
+✔ legacy, malformed, empty and unsafe QR payloads rejected (0.886034ms)
+✔ statistics include late and handle empty records (0.521777ms)
+✔ CSV preserves quoting and guards formulas (0.476042ms)
+✔ roles default to student and only exact trusted values grant access (1.715375ms)
+✔ class fields validated and normalized (1.835358ms)
+✔ session validates time order and IANA zone (73.593302ms)
+✔ QR must match server session and valid school payload (1.025348ms)
+✔ parses day, 24h time and subject (2.976162ms)
+✔ supports multi-day and explicit AM PM ranges (0.460888ms)
+✔ day heading applies to following lines; Tagalog day works (0.225785ms)
+✔ ambiguous times, missing days, backwards times never guessed (0.527821ms)
+✔ subject validation rejects missing names and invalid ranges (0.922859ms)
+✔ password strength detects common/short and complex passwords (0.783885ms)
+✔ ambiguous column headings and multiple time ranges are not assigned by guessing (0.321256ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 412.685772

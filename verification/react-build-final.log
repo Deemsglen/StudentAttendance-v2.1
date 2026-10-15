@@ -1,0 +1,17 @@
+
+> absensiswa@1.0.0 build
+> vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1653 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.55 kB │ gzip:   0.34 kB
+dist/assets/index-NzXzve0C.css   22.73 kB │ gzip:   5.66 kB
+dist/assets/web-QZgad1bu.js       0.36 kB │ gzip:   0.25 kB
+dist/assets/web-BOGh-tKo.js       0.84 kB │ gzip:   0.40 kB
+dist/assets/web-B0WuuOQ5.js       8.67 kB │ gzip:   2.95 kB
+dist/assets/index-C8-qnBA8.js   312.82 kB │ gzip: 100.17 kB
+dist/assets/index-BmF8cfXE.js   375.14 kB │ gzip: 110.56 kB
+✓ built in 5.06s

@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "environment": "Synthetic QR video in Chromium + LOCAL Auth/Firestore/Functions emulators; NOT a real Android camera or live project",
+  "checks": [
+    "Optical QR decode",
+    "Authenticated server verification",
+    "Server attendance write",
+    "Duplicate rejected by server",
+    "Camera tracks ended after scan"
+  ],
+  "trackStates": [
+    "ended"
+  ],
+  "errors": []
+}

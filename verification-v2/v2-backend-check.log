@@ -1,0 +1,4 @@
+
+> student-attendance-backend@2.0.0 check
+> node --check index.js
+
